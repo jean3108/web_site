@@ -71,22 +71,3 @@ const ThemeSelector = () => {
 };
 
 export default ThemeSelector;
-
-/*<div>
-      <Select value={userColor} onChange={handleColorChange}>
-        <MenuItem key="cold" value="cold">
-          Cold
-        </MenuItem>
-        <MenuItem key="warm" value="warm">
-          Warm
-        </MenuItem>
-      </Select>
-      <Select value={userDark} onChange={handleDarkChange}>
-        <MenuItem key="dark" value="dark">
-          Dark
-        </MenuItem>
-        <MenuItem key="light" value="light">
-          Light
-        </MenuItem>
-      </Select>
-    </div>*/
