@@ -3,12 +3,12 @@
         "dark":{
             "primary":"#7FB2FF",
             "secondary":"#2078FF",
-            "background":"black"
+            "background":"#000000"
         },
         "light":{
             "primary":"#2078FF",
             "secondary":"#7FB2FF",
-            "background":"white"
+            "background":"#FFFFFF"
         }
     },
 
@@ -17,12 +17,12 @@
         "dark":{
             "primary":"#FF674F",
             "secondary":"#FF3030",
-            "background":"black"
+            "background":"#000000"
         },
         "light":{
             "primary":"#FF3030",
             "secondary":"#FF674F",
-            "background":"white"
+            "background":"#FFFFFF"
         }
     }
 }
