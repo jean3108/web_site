@@ -1,0 +1,28 @@
+{
+    "cold": {
+        "dark":{
+            "primary":"#7FB2FF",
+            "secondary":"#2078FF",
+            "background":"black"
+        },
+        "light":{
+            "primary":"#2078FF",
+            "secondary":"#7FB2FF",
+            "background":"white"
+        }
+    },
+
+    "warm": {
+
+        "dark":{
+            "primary":"#FF674F",
+            "secondary":"#FF3030",
+            "background":"black"
+        },
+        "light":{
+            "primary":"#FF3030",
+            "secondary":"#FF674F",
+            "background":"white"
+        }
+    }
+}

@@ -1,0 +1,292 @@
+{
+    "fr": {
+
+        "header": {
+        },
+
+        "footer": {
+        	"content":"Made with React",
+        	"copyright": "Copyright u{00A9} {year} Jean Soler. All rights reserved."
+        },
+
+        "nav": {
+        	"presentation":"Présentation",
+        	"experience": "Expériences",
+        	"formation": "Formations",
+        	"projects":"Projets",
+        	"hobbies":"Passions",
+        	"articles":"Articles"
+        },
+
+        "homepage": {
+
+        	"presentation": {
+        		"intro": "Je m'appelle Jean.",
+
+        		"title": "Data Scientist / Machine Learning Engineer / Web Developper / Entrepreneur",
+
+        		"contact": {
+        			"mail": "jean.soler3108@gmail.com",
+        			"linkedin": "linkedin.com/in/jean-soler",
+        			"github": "github.com/jean3108"
+        		}
+        	},
+
+        	"experience": {
+        		"title": "Mes expériences",
+        		"content": "Voici les expériences que j'ai pu réaliser",
+        		"experiences": [
+        			{
+        				"enterprise":"BNP Paribas Real Estate",
+        				"job":"Machine Learning Engineer",
+        				"start": {
+        					"month": "Mars",
+        					"year": "2021"
+        				},
+        				"end": {
+        					"month": "Aout",
+        					"year": "2021"
+        				},
+        				"reference": {
+        					"name": "Bouadi",
+        					"forname": "Samira",
+        					"job": "Head of Data Science & Analytics Office"
+        				},
+        				"technos": [
+        					"React", "Flask", "Python", "Javascript", "API restful"
+        				],
+        				"missions": [
+        					"Développement d'un datacatalogue permettant de centraliser les méta-données sur les différentes données utilisables. Ce datacatalogue permet aussi de monitorer les données en ayant des statistiques et des graphiques permettant de vérifier la qualités de celles-ci."
+        				]
+        			},
+
+        			{
+        				"enterprise":"Ministère de la Transition Ecologique",
+        				"job":"Data Scientist NLP",
+        				"start": {
+        					"month": "Juin",
+        					"year": "2020"
+        				},
+        				"end": {
+        					"month": "Aout",
+        					"year": "2020"
+        				},
+        				"reference": {
+        					"name": "David",
+        					"forname": "Benoit",
+        					"job": "Chef de mission à l'Ecocolab"
+        				},
+        				"technos": [
+        					"Python", "Dataiku", "NLP", "scrapping", "BIM-25", "API"
+        				],
+        				"missions": [
+        					"Organisation et animation de réunions pour la récolte du besoin métier.",
+        					"Récupération des données avec notamment du web scrapping puis OCRisation des documents pdfs",
+        					"Développement d'un prototype sur Daitaiku permet de récupérer des documents silimaires à une étude et les décisions rendues avec par rapport à une nouvelle étude",
+        					"Présentation du prototype devant 40 autres administrations et devant d'autres directeurs régionaux",
+        					"Organisation et animation autonome d'un atelier de \"vulgarisation de l'IA et du NLP\" pour le Commissaire Générale au Développement Durable."
+        				]
+        			},
+        			{
+        				"enterprise":"Enedis",
+        				"job":"Developpeur Web & Base de données",
+        				"start": {
+        					"month": "Juin",
+        					"year": "2019"
+        				},
+        				"end": {
+        					"month": "Aout",
+        					"year": "2019"
+        				},
+        				"reference": {
+        					"name": "Teilhac",
+        					"forname": "Guillaume",
+        					"job": "Responsable Produit - Web"
+        				},
+        				"technos": [
+        					"PHP", "Javascript", "HTML", "CSS", "Ajax"
+        				],
+        				"missions": [
+        					"Développement d'une interface web permettant une meilleure vue d'ensemble de l'avancée du déploiement de versions en régions grâces à un un tableau de bords et des statistiques globales et spécifiques. L'interface permet aussi de remplacer un ancien outil moins ergonomique et plus lent.",
+        					"L'interface se greffe sur l'ancien outil et modifie en base en respectant les standards initiaux tout en permettant un gains de productivités et une réduction de la pénibilité des taches répétitives (passant de ~30 clique à 1 de manière transparente).",
+        					"Présentation hebdomadaire de l'avancement avec réorientation du projet selon les besoins utilisateurs"
+        				]
+        			}
+        		],
+        		"others_experiences": [
+        			{
+        				"enterprise":"Auto-entreprise",
+        				"job":"Professeur de mathématiques",
+        				"start": {
+        					"month": "Decembre",
+        					"year": "2016"
+        				},
+        				"end": {
+        					"month": "Juillet",
+        					"year": "2018"
+        				},
+        				"missions": [
+        					"Préparation de cours et d'exercice de mathématiques (collège & lycée)",
+        					"Organisation d'une préparation bac intensive d'une semaine (terminale S)"	
+        				]
+        			},
+        			{
+        				"enterprise":"La Croissanterie",
+        				"job":"Vendeur",
+        				"start": {
+        					"month": "Juin",
+        					"year": "2018"
+        				},
+        				"end": {
+        					"month": "Aout",
+        					"year": "2018"
+        				},
+        				"missions": [
+        					"Vente de produits de boulangerie et de sandwicherie & Encaissement des paiements",
+        					"Nettoyage de la salle client et du comptoir"
+        				]
+        			},
+        			{
+        				"enterprise":"Lidl",
+        				"job":"Employé Libre-Service",
+        				"start": {
+        					"month": "Aout",
+        					"year": "2017"
+        				},
+        				"end": {
+        					"month": "Decembre",
+        					"year": "2017"
+        				},
+        				"missions": [
+        					"Mise en rayon et manutention",
+        					"Caisse"	
+        				]
+        			}
+        		]
+        	},
+
+        	"education": {
+        		"title": "Formations",
+        		"content": "Voici l'ensemble de mes formations",
+        		"formations": [
+        			{
+        				"school": {
+        					"name": "Sorbonne Université (ex UPMC-Paris 6)",
+        					"link": "https://www.sorbonne-universite.fr/"
+        				},
+        				"formation": {
+        					"name": "Master DAC (Data Science & Machine Learning)",
+        					"link": "https://dac.lip6.fr/master/"
+        				},
+        				"tags": [
+        					"Machine Learning",
+        					"Deep Learning",
+        					"Computer Vision",
+        					"Transfert Learning",
+        					"Natural Language Processing (NLP)",
+        					"Business Intelligence (BI)",
+        					"Big Data",
+        					"Base de données réparties",
+        					"Réseaux de neurones",
+        					"Scrapping",
+        					"ETL",
+        					"Séries temporelles",
+        					"Systèmes de recommandation"
+        				],
+        				"technos": [
+        					{
+        						"name":"Reseaux de neurones",
+        						"content": [
+        							"GAN",
+        							"CNN",
+        							"Transformer",
+        							"RNN",
+        							"LSTM"
+        						]
+        					},
+        					{
+        						"name":"Python",
+        						"content": [
+        							"PyTorch",
+        							"pandas",
+        							"numpy",
+        							"matplotlib",
+        							"seaborn"
+        						]
+        					},
+        					{
+        						"name":"Big Data",
+        						"content": [
+        							"Databricks",
+        							"python & pySpark",
+        							"scala & Spark"
+        						]
+        					},
+        					{ 
+        						"name":"Dataiku",
+        						"content": []
+        					}
+
+        				]
+        			},
+        			{
+        				"school": {
+        					"name": "Sorbonne Université (ex UPMC-Paris 6)",
+        					"link": "https://www.sorbonne-universite.fr/"
+        				},
+        				"formation": {
+        					"name": "Licence Informatique",
+        					"link": "https://sciences.sorbonne-universite.fr/formation-sciences/licences/licences-generales-l2-l3/licence-dinformatique"
+        				},
+        				"sujects":[
+        					"Développement Web",
+        					"Génie Logiciel",
+        					"python",
+        					"React",
+        					"Javascript",
+        					"Java EE",
+        					"Java"
+        				],
+        				"technos": [
+        					{
+        						"name":"web",
+        						"content": [
+        							"PHP",
+        							"React",
+        							"Javascript",
+        							"Ajax",
+        							"API Rest",
+        							"Java EE",
+        							"HTML",
+        							"CSS"
+        						]
+        					},
+        					{
+        						"name":"developpement",
+        						"content": [
+        							"Java",
+        							"Python",
+        							"Test unitaire",
+        							"Test d'intégration",
+        							"CI/CD"
+        						]
+        					}
+        				]
+        			}
+        		]
+        	},
+
+        	"projects": {
+
+        	},
+
+        	"hobbies": {
+
+        	}
+        },
+
+        "search_article": {
+
+        }
+	}
+}
