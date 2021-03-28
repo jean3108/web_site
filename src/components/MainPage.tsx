@@ -6,13 +6,13 @@ import Presentation from "./Presentation";
 import { ThemeContext } from "./ThemeProvider";
 
 const MainPage = () => {
-  const { userDark, userColor, dictionaryTheme } = useContext(ThemeContext);
+  const { userTheme, userColor, dictionaryTheme } = useContext(ThemeContext);
 
   return (
     <div
       style={{
-        color: dictionaryTheme[userColor][userDark].primary,
-        backgroundColor: dictionaryTheme[userColor][userDark].background,
+        color: dictionaryTheme[userColor][userTheme].primary,
+        backgroundColor: dictionaryTheme[userColor][userTheme].background,
       }}
     >
       <Navigator />

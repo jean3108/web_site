@@ -2,35 +2,37 @@ import React, { useContext } from "react";
 
 import Switch from "react-switch";
 
-import { ThemeContext } from "./ThemeProvider";
+import { ThemeContext, Color, Theme } from "./ThemeProvider";
 
 const ThemeSelector = () => {
   const {
     userColor,
     userColorChange,
-    userDark,
-    userDarkChange,
+    userTheme,
+    userThemeChange,
     dictionaryTheme,
   } = useContext(ThemeContext);
 
-  const handleColorChange = (isWarm) =>
+  const handleColorChange = (isWarm:boolean) =>
     userColorChange(isWarm ? "warm" : "cold");
-  const handleDarkChange = (isDark) =>
-    userDarkChange(isDark ? "dark" : "light");
+  const handleThemeChange = (isDark:boolean) =>
+  userThemeChange(isDark ? "dark" : "light");
 
   return (
     <div style={{ display: "flex", alignItems: "center" }}>
       <Switch
-        checked={userColor === "warm" ? true : false}
+        checked={userColor === Color.Warm ? true : false}
         onChange={handleColorChange}
-        offColor={dictionaryTheme.cold[userDark].primary}
-        onColor={dictionaryTheme.warm[userDark].primary}
-        uncheckedIcon=""
-        checkedIcon=""
+        offColor={dictionaryTheme.cold[userTheme].primary}
+        onColor={dictionaryTheme.warm[userTheme].primary}
+        offHandleColor="#fff"
+        onHandleColor="#fff"
+        uncheckedIcon={<div></div>}
+        checkedIcon={<div></div>}
       />
       <Switch
-        checked={userDark === "dark" ? true : false}
-        onChange={handleDarkChange}
+        checked={userTheme === Theme.Dark ? true : false}
+        onChange={handleThemeChange}
         offColor="#000"
         onColor="#000"
         offHandleColor="#fff"
